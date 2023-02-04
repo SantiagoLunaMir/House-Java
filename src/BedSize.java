@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public enum BedSize {
+public enum BedSize {
+    individual,
+    matrimonial,
+    queen,
+    king
 }
