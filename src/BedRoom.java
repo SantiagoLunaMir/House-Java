@@ -1,19 +1,15 @@
 public class BedRoom {
-    //private BedSize bedSize;
+    private BedSize bedSize;
     private boolean tv;
     private int width;
     private int height;
     private String color;
-
-    /*
-    public void setBedSize(boolean bedSize){
+    public void setBedSize(BedSize bedSize){
         this.bedSize=bedSize;
     }
     public BedSize getBedSize(){
         return bedSize;
     }
-    */
-
     public void setTv(boolean tv) {
         this.tv = tv;
     }
